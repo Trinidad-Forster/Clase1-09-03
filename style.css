@@ -13,8 +13,8 @@ html, body{
 
 body {
     font-family: 'Smooch Sans', sans-serif;
-    color: #263238;
-    background: linear-gradient(#eceff1, #cfd8dc);
+    color: #644C12;
+    background: linear-gradient(#E9F5F4, #B9DFDD);
 }
 
 
@@ -46,12 +46,14 @@ h1 {
     font-size: calc(2rem + 2vw);
     font-weight: 900;
     letter-spacing: 0.1rem;
-    color: #6004FE;
+    color: #B18916;
+    text-shadow: 5px 5px 8px #3C3932;
 }
 
 p {
     line-height: 1.5;
     font-size: 1.25rem;
+    padding-left: 7rem;
 }
 
 @media (min-width:599px){
@@ -64,21 +66,21 @@ p {
 
 
 a {
-    color: #000;
+    color: #1D1D1B;
     opacity: 0.8;
     text-decoration: none;
     transition: all ease .5s;
 }
 
 a:hover {
-    color: #000;
+    color: #FFFFFF;
     opacity: 1;
     transition: all ease .5s;
 }
 
 footer div a {
     display: block;
-    background: #FFC300;
+    background: #8A2D87;
     box-shadow: 1px 1px 3px #b0bec5;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
@@ -108,7 +110,7 @@ footer div#print a{
 }
 
 footer div#controles {
-    background: #fff;
+    background: #7EC8C4;
     box-shadow: 1px 1px 3px #b0bec5;
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
@@ -116,7 +118,7 @@ footer div#controles {
 
 footer div#controles input[type="color"] {
     border: none;
-    background: #fff;
+    background: #E9F5F4;
     padding: 3px 5px;
     width: 2rem;
 }
@@ -124,4 +126,9 @@ footer div#controles input[type="color"] {
 footer div#controles input[type="range"] {
     width: 4rem;
     margin: 0 0.5rem;
+}
+
+img[src] {
+    padding-top: 2rem;
+    padding-left: 6rem;
 }
